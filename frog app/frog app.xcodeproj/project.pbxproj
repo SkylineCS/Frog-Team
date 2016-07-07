@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63DF571A1D2EBA3B009A6928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF57191D2EBA3B009A6928 /* AppDelegate.swift */; };
+		63DF571C1D2EBA3B009A6928 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF571B1D2EBA3B009A6928 /* ViewController.swift */; };
+		63DF571F1D2EBA3B009A6928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DF571D1D2EBA3B009A6928 /* Main.storyboard */; };
+		63DF57211D2EBA3B009A6928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DF57201D2EBA3B009A6928 /* Assets.xcassets */; };
+		63DF57241D2EBA3B009A6928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DF57221D2EBA3B009A6928 /* LaunchScreen.storyboard */; };
+		63DF572F1D2EBA3B009A6928 /* frog_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF572E1D2EBA3B009A6928 /* frog_appTests.swift */; };
+		63DF573A1D2EBA3B009A6928 /* frog_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF57391D2EBA3B009A6928 /* frog_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63DF572B1D2EBA3B009A6928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63DF570E1D2EBA3B009A6928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63DF57151D2EBA3B009A6928;
+			remoteInfo = "frog app";
+		};
+		63DF57361D2EBA3B009A6928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63DF570E1D2EBA3B009A6928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63DF57151D2EBA3B009A6928;
+			remoteInfo = "frog app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63DF57161D2EBA3B009A6928 /* frog app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "frog app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DF57191D2EBA3B009A6928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63DF571B1D2EBA3B009A6928 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63DF571E1D2EBA3B009A6928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63DF57201D2EBA3B009A6928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63DF57231D2EBA3B009A6928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63DF57251D2EBA3B009A6928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DF572A1D2EBA3B009A6928 /* frog appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "frog appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DF572E1D2EBA3B009A6928 /* frog_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frog_appTests.swift; sourceTree = "<group>"; };
+		63DF57301D2EBA3B009A6928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DF57351D2EBA3B009A6928 /* frog appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "frog appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DF57391D2EBA3B009A6928 /* frog_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frog_appUITests.swift; sourceTree = "<group>"; };
+		63DF573B1D2EBA3B009A6928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63DF57131D2EBA3B009A6928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DF57271D2EBA3B009A6928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DF57321D2EBA3B009A6928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63DF570D1D2EBA3B009A6928 = {
+			isa = PBXGroup;
+			children = (
+				63DF57181D2EBA3B009A6928 /* frog app */,
+				63DF572D1D2EBA3B009A6928 /* frog appTests */,
+				63DF57381D2EBA3B009A6928 /* frog appUITests */,
+				63DF57171D2EBA3B009A6928 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63DF57171D2EBA3B009A6928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63DF57161D2EBA3B009A6928 /* frog app.app */,
+				63DF572A1D2EBA3B009A6928 /* frog appTests.xctest */,
+				63DF57351D2EBA3B009A6928 /* frog appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63DF57181D2EBA3B009A6928 /* frog app */ = {
+			isa = PBXGroup;
+			children = (
+				63DF57191D2EBA3B009A6928 /* AppDelegate.swift */,
+				63DF571B1D2EBA3B009A6928 /* ViewController.swift */,
+				63DF571D1D2EBA3B009A6928 /* Main.storyboard */,
+				63DF57201D2EBA3B009A6928 /* Assets.xcassets */,
+				63DF57221D2EBA3B009A6928 /* LaunchScreen.storyboard */,
+				63DF57251D2EBA3B009A6928 /* Info.plist */,
+			);
+			path = "frog app";
+			sourceTree = "<group>";
+		};
+		63DF572D1D2EBA3B009A6928 /* frog appTests */ = {
+			isa = PBXGroup;
+			children = (
+				63DF572E1D2EBA3B009A6928 /* frog_appTests.swift */,
+				63DF57301D2EBA3B009A6928 /* Info.plist */,
+			);
+			path = "frog appTests";
+			sourceTree = "<group>";
+		};
+		63DF57381D2EBA3B009A6928 /* frog appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63DF57391D2EBA3B009A6928 /* frog_appUITests.swift */,
+				63DF573B1D2EBA3B009A6928 /* Info.plist */,
+			);
+			path = "frog appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63DF57151D2EBA3B009A6928 /* frog app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DF573E1D2EBA3B009A6928 /* Build configuration list for PBXNativeTarget "frog app" */;
+			buildPhases = (
+				63DF57121D2EBA3B009A6928 /* Sources */,
+				63DF57131D2EBA3B009A6928 /* Frameworks */,
+				63DF57141D2EBA3B009A6928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "frog app";
+			productName = "frog app";
+			productReference = 63DF57161D2EBA3B009A6928 /* frog app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63DF57291D2EBA3B009A6928 /* frog appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DF57411D2EBA3B009A6928 /* Build configuration list for PBXNativeTarget "frog appTests" */;
+			buildPhases = (
+				63DF57261D2EBA3B009A6928 /* Sources */,
+				63DF57271D2EBA3B009A6928 /* Frameworks */,
+				63DF57281D2EBA3B009A6928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63DF572C1D2EBA3B009A6928 /* PBXTargetDependency */,
+			);
+			name = "frog appTests";
+			productName = "frog appTests";
+			productReference = 63DF572A1D2EBA3B009A6928 /* frog appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63DF57341D2EBA3B009A6928 /* frog appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DF57441D2EBA3B009A6928 /* Build configuration list for PBXNativeTarget "frog appUITests" */;
+			buildPhases = (
+				63DF57311D2EBA3B009A6928 /* Sources */,
+				63DF57321D2EBA3B009A6928 /* Frameworks */,
+				63DF57331D2EBA3B009A6928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63DF57371D2EBA3B009A6928 /* PBXTargetDependency */,
+			);
+			name = "frog appUITests";
+			productName = "frog appUITests";
+			productReference = 63DF57351D2EBA3B009A6928 /* frog appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63DF570E1D2EBA3B009A6928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "the juan and only";
+				TargetAttributes = {
+					63DF57151D2EBA3B009A6928 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					63DF57291D2EBA3B009A6928 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 63DF57151D2EBA3B009A6928;
+					};
+					63DF57341D2EBA3B009A6928 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 63DF57151D2EBA3B009A6928;
+					};
+				};
+			};
+			buildConfigurationList = 63DF57111D2EBA3B009A6928 /* Build configuration list for PBXProject "frog app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63DF570D1D2EBA3B009A6928;
+			productRefGroup = 63DF57171D2EBA3B009A6928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63DF57151D2EBA3B009A6928 /* frog app */,
+				63DF57291D2EBA3B009A6928 /* frog appTests */,
+				63DF57341D2EBA3B009A6928 /* frog appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63DF57141D2EBA3B009A6928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DF57241D2EBA3B009A6928 /* LaunchScreen.storyboard in Resources */,
+				63DF57211D2EBA3B009A6928 /* Assets.xcassets in Resources */,
+				63DF571F1D2EBA3B009A6928 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DF57281D2EBA3B009A6928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DF57331D2EBA3B009A6928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63DF57121D2EBA3B009A6928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DF571C1D2EBA3B009A6928 /* ViewController.swift in Sources */,
+				63DF571A1D2EBA3B009A6928 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DF57261D2EBA3B009A6928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DF572F1D2EBA3B009A6928 /* frog_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DF57311D2EBA3B009A6928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DF573A1D2EBA3B009A6928 /* frog_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63DF572C1D2EBA3B009A6928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63DF57151D2EBA3B009A6928 /* frog app */;
+			targetProxy = 63DF572B1D2EBA3B009A6928 /* PBXContainerItemProxy */;
+		};
+		63DF57371D2EBA3B009A6928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63DF57151D2EBA3B009A6928 /* frog app */;
+			targetProxy = 63DF57361D2EBA3B009A6928 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63DF571D1D2EBA3B009A6928 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63DF571E1D2EBA3B009A6928 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63DF57221D2EBA3B009A6928 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63DF57231D2EBA3B009A6928 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63DF573C1D2EBA3B009A6928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63DF573D1D2EBA3B009A6928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63DF573F1D2EBA3B009A6928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "frog app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "juanAndOnly.frog-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63DF57401D2EBA3B009A6928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "frog app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "juanAndOnly.frog-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63DF57421D2EBA3B009A6928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "frog appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "juanAndOnly.frog-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frog app.app/frog app";
+			};
+			name = Debug;
+		};
+		63DF57431D2EBA3B009A6928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "frog appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "juanAndOnly.frog-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frog app.app/frog app";
+			};
+			name = Release;
+		};
+		63DF57451D2EBA3B009A6928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "frog appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "juanAndOnly.frog-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "frog app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		63DF57461D2EBA3B009A6928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "frog appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "juanAndOnly.frog-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "frog app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63DF57111D2EBA3B009A6928 /* Build configuration list for PBXProject "frog app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DF573C1D2EBA3B009A6928 /* Debug */,
+				63DF573D1D2EBA3B009A6928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DF573E1D2EBA3B009A6928 /* Build configuration list for PBXNativeTarget "frog app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DF573F1D2EBA3B009A6928 /* Debug */,
+				63DF57401D2EBA3B009A6928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63DF57411D2EBA3B009A6928 /* Build configuration list for PBXNativeTarget "frog appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DF57421D2EBA3B009A6928 /* Debug */,
+				63DF57431D2EBA3B009A6928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63DF57441D2EBA3B009A6928 /* Build configuration list for PBXNativeTarget "frog appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DF57451D2EBA3B009A6928 /* Debug */,
+				63DF57461D2EBA3B009A6928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63DF570E1D2EBA3B009A6928 /* Project object */;
+}
