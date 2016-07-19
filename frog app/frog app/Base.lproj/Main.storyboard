@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Guf-12-JaK">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -18,29 +18,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lzn-Hx-sFd">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lzn-Hx-sFd">
                                 <rect key="frame" x="28" y="28" width="268" height="183"/>
                                 <state key="normal" title="News"/>
+                                <connections>
+                                    <segue destination="e9r-eG-hec" kind="show" identifier="NewsSegue" id="hTl-va-82z"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tje-VA-Uvz">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tje-VA-Uvz">
                                 <rect key="frame" x="304" y="28" width="268" height="183"/>
                                 <state key="normal" title="Info"/>
+                                <connections>
+                                    <segue destination="UCN-gf-jsw" kind="show" identifier="PicsInfoSegue" id="lyf-eJ-WRW"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGb-ok-GhO">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGb-ok-GhO">
                                 <rect key="frame" x="28" y="219" width="268" height="182"/>
                                 <state key="normal" title="Activity"/>
+                                <connections>
+                                    <segue destination="cz7-Le-8Bk" kind="show" identifier="ActivitySegue" id="QXr-7E-gBY"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzG-Yn-9rE">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzG-Yn-9rE">
                                 <rect key="frame" x="304" y="219" width="268" height="182"/>
                                 <state key="normal" title="Exhibit"/>
+                                <connections>
+                                    <segue destination="71D-MK-3pT" kind="show" identifier="ExhibitSegue" id="6zG-UC-Ylc"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZh-v0-Gei">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZh-v0-Gei">
                                 <rect key="frame" x="304" y="409" width="268" height="183"/>
                                 <state key="normal" title="About"/>
+                                <connections>
+                                    <segue destination="PIn-ia-YIz" kind="show" identifier="AboutSegue" id="Q2H-fm-Xz4"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWb-jC-Zgg">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWb-jC-Zgg">
                                 <rect key="frame" x="28" y="409" width="268" height="183"/>
                                 <state key="normal" title="Data"/>
+                                <connections>
+                                    <segue destination="aj2-vL-HZU" kind="show" identifier="DataSegue" id="B69-lz-sOK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -74,9 +92,137 @@
                             <constraint firstAttribute="trailingMargin" secondItem="fzG-Yn-9rE" secondAttribute="trailing" constant="8" id="yxX-cz-qyg"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="XFU-U8-9ig"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="165" y="105"/>
+        </scene>
+        <!--News View Controller-->
+        <scene sceneID="LK2-Qp-waM">
+            <objects>
+                <viewController id="e9r-eG-hec" customClass="NewsViewController" customModule="frog_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2So-Vq-GXA"/>
+                        <viewControllerLayoutGuide type="bottom" id="GN4-Ta-cm4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lnz-Zv-S15">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4q7-Nl-tMZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="888" y="-633"/>
+        </scene>
+        <!--Activity View Controller-->
+        <scene sceneID="EqB-Je-tob">
+            <objects>
+                <viewController id="cz7-Le-8Bk" customClass="ActivityViewController" customModule="frog_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dhs-qu-RfH"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ndr-cn-Y5I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f8z-rh-e8X">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="drI-lB-TkQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="864" y="105"/>
+        </scene>
+        <!--Data View Controller-->
+        <scene sceneID="dPi-kv-ydr">
+            <objects>
+                <viewController id="aj2-vL-HZU" customClass="DataViewController" customModule="frog_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y3k-uX-Zen"/>
+                        <viewControllerLayoutGuide type="bottom" id="w0t-nS-smD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wx0-FX-R1U">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cvh-hA-Wt3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="864" y="899"/>
+        </scene>
+        <!--Pics Info View Controller-->
+        <scene sceneID="6pF-BV-mDq">
+            <objects>
+                <viewController id="UCN-gf-jsw" customClass="Pics_InfoViewController" customModule="frog_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OaP-2D-DUT"/>
+                        <viewControllerLayoutGuide type="bottom" id="Efa-p3-fKn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pGJ-Wd-pEx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w6p-EB-a48" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1632" y="-633"/>
+        </scene>
+        <!--Exhibit View Controller-->
+        <scene sceneID="F8h-Ns-QXL">
+            <objects>
+                <viewController id="71D-MK-3pT" customClass="ExhibitViewController" customModule="frog_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="au3-Av-8bV"/>
+                        <viewControllerLayoutGuide type="bottom" id="n2K-Ve-ApE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jgX-Nr-H83">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hc6-fQ-cEV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1632" y="105"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="l3z-uK-oeB">
+            <objects>
+                <viewController id="PIn-ia-YIz" customClass="AboutViewController" customModule="frog_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WVA-WU-9cF"/>
+                        <viewControllerLayoutGuide type="bottom" id="41j-Mq-jh9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mBC-r4-IkB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lT5-s2-uMc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1632" y="899"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cG9-u8-sVV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Guf-12-JaK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gqB-GW-sI9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="QSd-wk-9aB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ClA-cf-Ij1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-647" y="105"/>
         </scene>
     </scenes>
 </document>
