@@ -7,12 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		634948F71D3EA0EB0079EA27 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634948F61D3EA0EB0079EA27 /* NewsViewController.swift */; };
-		634948F91D3EA1000079EA27 /* Pics&InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634948F81D3EA1000079EA27 /* Pics&InfoViewController.swift */; };
-		634948FB1D3EA1110079EA27 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634948FA1D3EA1110079EA27 /* ActivityViewController.swift */; };
-		634948FD1D3EA1400079EA27 /* ExhibitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634948FC1D3EA1400079EA27 /* ExhibitViewController.swift */; };
-		634948FF1D3EA1490079EA27 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634948FE1D3EA1490079EA27 /* DataViewController.swift */; };
-		634949011D3EA1570079EA27 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634949001D3EA1570079EA27 /* AboutViewController.swift */; };
+		63DB7FCF1D4121890019E9FC /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB7FCE1D4121890019E9FC /* ContentViewController.swift */; };
 		63DF571A1D2EBA3B009A6928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF57191D2EBA3B009A6928 /* AppDelegate.swift */; };
 		63DF571C1D2EBA3B009A6928 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF571B1D2EBA3B009A6928 /* ViewController.swift */; };
 		63DF571F1D2EBA3B009A6928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DF571D1D2EBA3B009A6928 /* Main.storyboard */; };
@@ -40,12 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		634948F61D3EA0EB0079EA27 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
-		634948F81D3EA1000079EA27 /* Pics&InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pics&InfoViewController.swift"; sourceTree = "<group>"; };
-		634948FA1D3EA1110079EA27 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
-		634948FC1D3EA1400079EA27 /* ExhibitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhibitViewController.swift; sourceTree = "<group>"; };
-		634948FE1D3EA1490079EA27 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		634949001D3EA1570079EA27 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		63DB7FCE1D4121890019E9FC /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		63DF57161D2EBA3B009A6928 /* frog app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "frog app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DF57191D2EBA3B009A6928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63DF571B1D2EBA3B009A6928 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,15 +102,10 @@
 				63DF57191D2EBA3B009A6928 /* AppDelegate.swift */,
 				63DF571B1D2EBA3B009A6928 /* ViewController.swift */,
 				63DF571D1D2EBA3B009A6928 /* Main.storyboard */,
+				63DB7FCE1D4121890019E9FC /* ContentViewController.swift */,
 				63DF57201D2EBA3B009A6928 /* Assets.xcassets */,
 				63DF57221D2EBA3B009A6928 /* LaunchScreen.storyboard */,
 				63DF57251D2EBA3B009A6928 /* Info.plist */,
-				634948F61D3EA0EB0079EA27 /* NewsViewController.swift */,
-				634948F81D3EA1000079EA27 /* Pics&InfoViewController.swift */,
-				634948FA1D3EA1110079EA27 /* ActivityViewController.swift */,
-				634948FC1D3EA1400079EA27 /* ExhibitViewController.swift */,
-				634948FE1D3EA1490079EA27 /* DataViewController.swift */,
-				634949001D3EA1570079EA27 /* AboutViewController.swift */,
 			);
 			path = "frog app";
 			sourceTree = "<group>";
@@ -274,13 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634948F91D3EA1000079EA27 /* Pics&InfoViewController.swift in Sources */,
-				634948FF1D3EA1490079EA27 /* DataViewController.swift in Sources */,
-				634948F71D3EA0EB0079EA27 /* NewsViewController.swift in Sources */,
 				63DF571C1D2EBA3B009A6928 /* ViewController.swift in Sources */,
-				634948FB1D3EA1110079EA27 /* ActivityViewController.swift in Sources */,
-				634948FD1D3EA1400079EA27 /* ExhibitViewController.swift in Sources */,
-				634949011D3EA1570079EA27 /* AboutViewController.swift in Sources */,
+				63DB7FCF1D4121890019E9FC /* ContentViewController.swift in Sources */,
 				63DF571A1D2EBA3B009A6928 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

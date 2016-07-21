@@ -1,17 +1,27 @@
 //
-//  ActivityViewController.swift
+//  ContentViewController.swift
 //  frog app
 //
-//  Created by Mac User on 7/19/16.
+//  Created by Mac User on 7/21/16.
 //  Copyright © 2016 the juan and only. All rights reserved.
 //
 
 import UIKit
 
-class ActivityViewController: UIViewController {
+class ContentViewController: UIViewController {
+    @IBOutlet weak var TextField: UITextView!
+    @IBOutlet weak var ImageView: UIImageView!
+    
+    var pageIndex: Int!
+    var pageText: String!
+    var imageFile: String!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.ImageView.image = UIImage(named: self.imageFile)
+        self.TextField.text = self.pageText
 
         // Do any additional setup after loading the view.
     }
