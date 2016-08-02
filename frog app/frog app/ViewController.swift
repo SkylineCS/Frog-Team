@@ -16,9 +16,8 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.pageTextArr = NSArray(objects:
-            "This is the Lake Titicaca fun frog, the poor creature who serves as smoothie material to the local cultures immediately surrounding the lake.", "This is a Gazebo, a place where one may drink said smoothie.")
-        self.pageImages = NSArray(objects: "Frog1", "Gazebo")
+        self.pageTextArr = NSArray(objects: "Hello", "Goodbye")
+        self.pageImages = NSArray(objects: "Hello", "Goodbye")
         
         
         self.pageViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageViewController") as! UIPageViewController
