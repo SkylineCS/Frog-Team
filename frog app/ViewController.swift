@@ -16,11 +16,11 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.pageTextArr = NSArray(objects:
-            "This is the Lake Titicaca fun frog, the poor creature who serves as smoothie material to the local cultures immediately surrounding the lake.", "This is a Gazebo, a place where one may drink said smoothie.")
+        self.pageTextArr = NSArray(objects: "This is the Lake Titicaca water frog, the poor animal who gets blended up to serve as male enhancement to the local populace.", "This is a Gazebo.")
         self.pageImages = NSArray(objects: "Frog1", "Gazebo")
         
-        
+        //comment
+        //comment 2 for git testing
         self.pageViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageViewController") as! UIPageViewController
         
         self.pageViewController.dataSource = self
@@ -29,7 +29,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         var viewControllers = NSArray(object: startVC)
         
         self.pageViewController.setViewControllers(viewControllers as! [UIViewController], direction: .Forward, animated: true, completion: nil)
-        self.pageViewController.view.frame = CGRectMake(0, 30, self.view.frame.width, self.view.frame.size.height - 60)
+        self.pageViewController.view.frame = CGRectMake(0, 49, self.view.frame.width, self.view.frame.size.height - 60)
         
         self.addChildViewController(self.pageViewController)
         self.view.addSubview(self.pageViewController.view)

@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         var storyboard = UIStoryboard(name: "Main", bundle: nil)
         
-        var initialViewController = storyboard.instantiateViewControllerWithIdentifier("MainMenu")
+        var initialViewController = storyboard.instantiateViewControllerWithIdentifier("MainVC")
         
         self.window?.rootViewController = initialViewController
         self.window?.makeKeyAndVisible()
