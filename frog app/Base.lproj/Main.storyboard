@@ -177,27 +177,38 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="aDy-X2-a95">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="aDy-X2-a95">
                                 <rect key="frame" x="47" y="357" width="507" height="31"/>
                                 <connections>
                                     <action selector="SliderChanged:" destination="HT3-Lb-ejy" eventType="valueChanged" id="DNl-EU-EW3"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szP-cF-vFz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szP-cF-vFz">
                                 <rect key="frame" x="242" y="74" width="116" height="54"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tuba" translatesAutoresizingMaskIntoConstraints="NO" id="ebo-Ew-GIB">
+                                <rect key="frame" x="180" y="136" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="J44-XJ-c0O"/>
+                                    <constraint firstAttribute="width" constant="240" id="dPs-1P-sUR"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="aDy-X2-a95" firstAttribute="leading" secondItem="Psv-YH-1RI" secondAttribute="leadingMargin" constant="29" id="1Xj-ci-hgx"/>
                             <constraint firstItem="FAl-S6-vbr" firstAttribute="leading" secondItem="Psv-YH-1RI" secondAttribute="leading" id="Gwe-lV-Jre"/>
+                            <constraint firstItem="ebo-Ew-GIB" firstAttribute="centerX" secondItem="aDy-X2-a95" secondAttribute="centerX" id="HcY-bI-8vv"/>
                             <constraint firstItem="aDy-X2-a95" firstAttribute="centerX" secondItem="FAl-S6-vbr" secondAttribute="centerX" id="IDH-iw-2pV"/>
+                            <constraint firstItem="ebo-Ew-GIB" firstAttribute="centerX" secondItem="szP-cF-vFz" secondAttribute="centerX" id="K8i-wu-e5q"/>
                             <constraint firstItem="FAl-S6-vbr" firstAttribute="top" secondItem="Psv-YH-1RI" secondAttribute="top" id="MYi-qN-vT3"/>
-                            <constraint firstItem="Fkt-nF-EPS" firstAttribute="top" secondItem="aDy-X2-a95" secondAttribute="bottom" constant="212" id="OYo-Cb-gji"/>
+                            <constraint firstItem="ebo-Ew-GIB" firstAttribute="top" secondItem="szP-cF-vFz" secondAttribute="bottom" constant="8" symbolic="YES" id="Mcm-6R-uPQ"/>
+                            <constraint firstItem="Fkt-nF-EPS" firstAttribute="top" secondItem="aDy-X2-a95" secondAttribute="bottom" constant="213" id="OYo-Cb-gji"/>
                             <constraint firstItem="aDy-X2-a95" firstAttribute="centerX" secondItem="Psv-YH-1RI" secondAttribute="centerX" id="a7C-L5-efX"/>
+                            <constraint firstItem="aDy-X2-a95" firstAttribute="top" secondItem="ebo-Ew-GIB" secondAttribute="bottom" constant="93" id="gYa-fT-rbf"/>
                         </constraints>
                     </view>
                     <connections>
@@ -343,6 +354,9 @@
             <point key="canvasLocation" x="1832" y="410"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Tuba" width="290" height="480"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="ZLg-7h-dD4"/>
     </inferredMetricsTieBreakers>
