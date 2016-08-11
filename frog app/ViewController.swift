@@ -16,19 +16,19 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.pageTextArr = NSArray(objects: "This is the Lake Titicaca water frog, the poor animal who gets blended up to serve as male enhancement to the local populace.", "This is a Gazebo.")
-        self.pageImages = NSArray(objects: "Frog1", "Gazebo")
+        self.pageTextArr = NSArray(objects:
+            "This is the lake Titicaca Frog, the endangered animal who lives on the fringes of the 1000mi2 lake.",
+            "This is the Denver zoo, the afiliate and proxy to scientists in peru who are looking at bringing the frog back.")
+        self.pageImages = NSArray(objects: "Frog2", "DZoo")
         
-        //comment
-        //comment 2 for git testing
         self.pageViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageViewController") as! UIPageViewController
         
         self.pageViewController.dataSource = self
         
-        var startVC = self.viewControllerAtIndex(0) as ContentViewController
-        var viewControllers = NSArray(object: startVC)
+        let startVC = self.viewControllerAtIndex(0) as ContentViewController
+        let viewControllers = NSArray(object: startVC)
         
-        self.pageViewController.setViewControllers(viewControllers as! [UIViewController], direction: .Forward, animated: true, completion: nil)
+        self.pageViewController.setViewControllers((viewControllers as! [UIViewController]), direction: .Forward, animated: true, completion: nil)
         self.pageViewController.view.frame = CGRectMake(0, 49, self.view.frame.width, self.view.frame.size.height - 60)
         
         self.addChildViewController(self.pageViewController)
@@ -46,7 +46,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
             return ContentViewController()
         }
         
-        var vc: ContentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ContentViewController") as! ContentViewController
+        let vc: ContentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ContentViewController") as! ContentViewController
         vc.imageFile = self.pageImages[index] as! String
         vc.pageText = self.pageTextArr[index] as! String
         vc.pageIndex = index
@@ -58,26 +58,26 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
     
     // MARK: - Page View Controller Data Source
     func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
-        var vc = viewController as! ContentViewController
+        let vc = viewController as! ContentViewController
         var index = vc.pageIndex as Int
         
         if (index == 0) || index == NSNotFound {
             return nil
         }
         
-        index--
+        index -= 1
         return self.viewControllerAtIndex(index)
     }
     
     func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
-        var vc = viewController as! ContentViewController
+        let vc = viewController as! ContentViewController
         var index = vc.pageIndex as Int
         
         if (index == NSNotFound)
         {
             return nil
         }
-        index++
+        index += 1
         
         if (index == self.pageTextArr.count) {
             return nil
