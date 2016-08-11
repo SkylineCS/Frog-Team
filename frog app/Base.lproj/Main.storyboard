@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="exn-92-tIP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="exn-92-tIP">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -156,7 +156,7 @@
         <!--Exhibit-->
         <scene sceneID="EKa-4m-XuG">
             <objects>
-                <viewController title="Exhibit" id="HT3-Lb-ejy" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Exhibit" title="Exhibit" id="HT3-Lb-ejy" customClass="ExhibitViewController" customModule="frog_app" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Npe-sn-L9S"/>
                         <viewControllerLayoutGuide type="bottom" id="Fkt-nF-EPS"/>
@@ -165,7 +165,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FAl-S6-vbr">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FAl-S6-vbr">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                 <items>
                                     <navigationItem id="3k4-oj-uHd">
@@ -177,9 +177,33 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="aDy-X2-a95">
+                                <rect key="frame" x="47" y="357" width="507" height="31"/>
+                                <connections>
+                                    <action selector="SliderChanged:" destination="HT3-Lb-ejy" eventType="valueChanged" id="DNl-EU-EW3"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szP-cF-vFz">
+                                <rect key="frame" x="242" y="74" width="116" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aDy-X2-a95" firstAttribute="leading" secondItem="Psv-YH-1RI" secondAttribute="leadingMargin" constant="29" id="1Xj-ci-hgx"/>
+                            <constraint firstItem="FAl-S6-vbr" firstAttribute="leading" secondItem="Psv-YH-1RI" secondAttribute="leading" id="Gwe-lV-Jre"/>
+                            <constraint firstItem="aDy-X2-a95" firstAttribute="centerX" secondItem="FAl-S6-vbr" secondAttribute="centerX" id="IDH-iw-2pV"/>
+                            <constraint firstItem="FAl-S6-vbr" firstAttribute="top" secondItem="Psv-YH-1RI" secondAttribute="top" id="MYi-qN-vT3"/>
+                            <constraint firstItem="Fkt-nF-EPS" firstAttribute="top" secondItem="aDy-X2-a95" secondAttribute="bottom" constant="212" id="OYo-Cb-gji"/>
+                            <constraint firstItem="aDy-X2-a95" firstAttribute="centerX" secondItem="Psv-YH-1RI" secondAttribute="centerX" id="a7C-L5-efX"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Label" destination="szP-cF-vFz" id="IGd-5E-7DH"/>
+                        <outlet property="Slider" destination="aDy-X2-a95" id="HMc-4x-hJp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PhA-z3-34t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -320,6 +344,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="w6C-4Z-8Q4"/>
+        <segue reference="ZLg-7h-dD4"/>
     </inferredMetricsTieBreakers>
 </document>

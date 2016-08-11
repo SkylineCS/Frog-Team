@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63BEF7A31D5CE37000201732 /* ExhibitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BEF7A21D5CE37000201732 /* ExhibitViewController.swift */; };
 		63DB7FCF1D4121890019E9FC /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB7FCE1D4121890019E9FC /* ContentViewController.swift */; };
 		63DF571A1D2EBA3B009A6928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF57191D2EBA3B009A6928 /* AppDelegate.swift */; };
 		63DF571C1D2EBA3B009A6928 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DF571B1D2EBA3B009A6928 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63BEF7A21D5CE37000201732 /* ExhibitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhibitViewController.swift; sourceTree = "<group>"; };
 		63DB7FCE1D4121890019E9FC /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		63DF57161D2EBA3B009A6928 /* frog app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "frog app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DF57191D2EBA3B009A6928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				63DF57191D2EBA3B009A6928 /* AppDelegate.swift */,
 				63DF571B1D2EBA3B009A6928 /* ViewController.swift */,
 				63DF571D1D2EBA3B009A6928 /* Main.storyboard */,
+				63BEF7A21D5CE37000201732 /* ExhibitViewController.swift */,
 				63DB7FCE1D4121890019E9FC /* ContentViewController.swift */,
 				63DF57201D2EBA3B009A6928 /* Assets.xcassets */,
 				63DF57221D2EBA3B009A6928 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				63DF571C1D2EBA3B009A6928 /* ViewController.swift in Sources */,
 				63DB7FCF1D4121890019E9FC /* ContentViewController.swift in Sources */,
+				63BEF7A31D5CE37000201732 /* ExhibitViewController.swift in Sources */,
 				63DF571A1D2EBA3B009A6928 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
